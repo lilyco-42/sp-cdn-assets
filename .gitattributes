@@ -1,0 +1,6 @@
+# 二进制的游戏素材：不做任何行尾转换 / diff 文本化，原样字节进原样字节出
+* -text -diff
+
+# atlas 是 spine 的文本描述文件，保持原样（不要加 CRLF）
+*.atlas -text -diff
+*.json  -text -diff
